@@ -62,7 +62,7 @@ export default function OrbitSkills() {
       {outer.map((file, i) => (
         <div key={i} className="satellite sat-outer"
           data-name={file.replace(/-icon\.(png|svg|webp|jpg)/, '')}>
-          <img src={`/orbit/${file}`} alt={file} />
+          <img src={`${import.meta.env.BASE_URL}orbit/${file}`} alt={file} />
         </div>
       ))}
       {inner.map((file, i) => (
