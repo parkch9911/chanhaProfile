@@ -11,29 +11,29 @@ export default function Home() {
         rentcar: {
             title: '렌트카 프로젝트',
             slides: [
-                { gif: '/charangGIF/regist.gif', label: '회원가입' },
-                { gif: '/charangGIF/login.gif', label: '로그인' },
-                { gif: '/charangGIF/findid.gif', label: '아이디 찾기' },
-                { gif: '/charangGIF/resetpw.gif', label: '비밀번호 재설정' },
-                { gif: '/charangGIF/modinfo.gif', label: '회원정보 수정' },
-                { gif: '/charangGIF/unreg.gif', label: '회원탈퇴' },
-                { gif: '/charangGIF/reservation.gif', label: '차량 예약' },
-                { gif: '/charangGIF/inquiry.gif', label: '문의하기' },
-                { gif: '/charangGIF/admin.gif', label: '관리자 페이지' },
-                { gif: '/charangGIF/location.gif', label: '지점 찾기' },
+                { gif: 'charangGIF/regist.gif', label: '회원가입' },
+                { gif: 'charangGIF/login.gif', label: '로그인' },
+                { gif: 'charangGIF/findid.gif', label: '아이디 찾기' },
+                { gif: 'charangGIF/resetpw.gif', label: '비밀번호 재설정' },
+                { gif: 'charangGIF/modinfo.gif', label: '회원정보 수정' },
+                { gif: 'charangGIF/unreg.gif', label: '회원탈퇴' },
+                { gif: 'charangGIF/reservation.gif', label: '차량 예약' },
+                { gif: 'charangGIF/inquiry.gif', label: '문의하기' },
+                { gif: 'charangGIF/admin.gif', label: '관리자 페이지' },
+                { gif: 'charangGIF/location.gif', label: '지점 찾기' },
             ]
         },
         ott: {
             title: 'OTT 프로젝트',
             slides: [
-                { gif: '/ottGIF/ott.gif', label: '메인 서비스' },
+                { gif: 'ottGIF/ott.gif', label: '메인 서비스' },
             ]
         },
         movie: {
             title: '메가박스 프로젝트',
             slides: [
-                { gif: '/movieGIF/moviehome.gif', label: '메인 홈' },
-                { gif: '/movieGIF/moviebook.gif', label: '영화 예매' },
+                { gif: 'movieGIF/moviehome.gif', label: '메인 홈' },
+                { gif: 'movieGIF/moviebook.gif', label: '영화 예매' },
             ]
         },
         rentcarCon: {
@@ -49,18 +49,18 @@ export default function Home() {
                     'React Router Outlet을 활용한 관리자/일반 회원 라우터 분리',
                     'Pandas 데이터 집계 및 관리자 통계 대시보드 구현'
                 ]},
-                { gif: '/charangCon/encodepw.gif', label: '비밀번호 암호화'},
-                { gif: '/charangCon/login.gif', label: '로그인/로그아웃'},
-                { gif: '/charangCon/findid.gif', label: '아이디찾기'},
-                { gif: '/charangCon/resetpw.gif', label: '비밀번호 재설정 E-mail API'},
-                { gif: '/charangCon/modinfo.gif', label: '회원정보 수정' },
-                { gif: '/charangCon/unreg.gif', label: '회원 탈퇴'},
-                { gif: '/charangCon/searchfast.gif', label: '실시간 검색'},
-                { gif: '/charangCon/noitcefooter.gif', label: '푸터 최신 공지사항'},
-                { gif: '/charangCon/guide.gif', label: '이용가이드'},
-                { gif: '/charangCon/dashboard.gif', label: '통계'},
-                { gif: '/charangCon/scrollandquick.gif', label: '위로가기/최근본차량 바로가기'},
-                { gif: '/charangCon/FAQ.gif', label: '자주찾는질문'}
+                { gif: 'charangCon/encodepw.gif', label: '비밀번호 암호화'},
+                { gif: 'charangCon/login.gif', label: '로그인/로그아웃'},
+                { gif: 'charangCon/findid.gif', label: '아이디찾기'},
+                { gif: 'charangCon/resetpw.gif', label: '비밀번호 재설정 E-mail API'},
+                { gif: 'charangCon/modinfo.gif', label: '회원정보 수정' },
+                { gif: 'charangCon/unreg.gif', label: '회원 탈퇴'},
+                { gif: 'charangCon/searchfast.gif', label: '실시간 검색'},
+                { gif: 'charangCon/noitcefooter.gif', label: '푸터 최신 공지사항'},
+                { gif: 'charangCon/guide.gif', label: '이용가이드'},
+                { gif: 'charangCon/dashboard.gif', label: '통계'},
+                { gif: 'charangCon/scrollandquick.gif', label: '위로가기/최근본차량 바로가기'},
+                { gif: 'charangCon/FAQ.gif', label: '자주찾는질문'}
             ]
         },
         ottCon: {
@@ -71,9 +71,9 @@ export default function Home() {
                     '개별 프로필 찜 목록 관리',
                     '상세보기 및 추천 영화 랜덤 출력'
                 ]},
-                { gif: '/ottCon/ottloginlogout.gif', label: '로그인/로그아웃 및 프로필 관리'},
-                { gif: '/ottCon/ottlike.gif', label: '찜 목록 관리'},
-                { gif: '/ottCon/ottdetailrandom.gif', label: '상세보기 및 추천 영화'},
+                { gif: 'ottCon/ottloginlogout.gif', label: '로그인/로그아웃 및 프로필 관리'},
+                { gif: 'ottCon/ottlike.gif', label: '찜 목록 관리'},
+                { gif: 'ottCon/ottdetailrandom.gif', label: '상세보기 및 추천 영화'},
             ]
         },
         movieCon: {
@@ -82,7 +82,7 @@ export default function Home() {
                 { gif: null, label: '기여 목록',desc:[
                     '메인 홈페이지 UI 구현','JavaScript 동적 UI 처리'
                 ]},
-                { gif: '/movieCon/moviehome.gif', label: '메인 홈'}
+                { gif: 'movieCon/moviehome.gif', label: '메인 홈'}
             ]
         }
     }
@@ -107,8 +107,8 @@ export default function Home() {
                     </p>
                 </div>
                 <div className="char-wrap">
-                    <img src="/cha_light.png" style={{ opacity: isDark ? 0 : 1 }} />
-                    <img src="/cha_dark.png" style={{ opacity: isDark ? 1 : 0 }} />
+                    <img src="cha_light.png" style={{ opacity: isDark ? 0 : 1 }} />
+                    <img src="cha_dark.png" style={{ opacity: isDark ? 1 : 0 }} />
                 </div>
             </div>
             <hr className={isDark ? 'dark' : 'light'} />
@@ -154,7 +154,7 @@ export default function Home() {
                     <div className="project-list">
                         <div className="project-item">
                             <div className="project-img-wrap">
-                                <img src="/renthome.JPG" alt="렌트카" />
+                                <img src="renthome.JPG" alt="렌트카" />
                             </div>
                             <div className={`project-info ${isDark ? 'dark' : 'light'}`}>
                                 <h2>렌트카 프로젝트</h2>
@@ -184,7 +184,7 @@ export default function Home() {
                         <hr className={isDark ? 'dark' : 'light'} />
                         <div className="project-item reverse">
                             <div className="project-img-wrap">
-                                <img src="/otthome.JPG" alt="OTT" />
+                                <img src="otthome.JPG" alt="OTT" />
                             </div>
                             <div className={`project-info ${isDark ? 'dark' : 'light'}`}>
                                 <h2>OTT 프로젝트</h2>
@@ -214,7 +214,7 @@ export default function Home() {
                         <hr className={isDark ? 'dark' : 'light'} />
                         <div className="project-item">
                             <div className="project-img-wrap">
-                                <img src="/moviehome.JPG" alt="메가박스" />
+                                <img src="moviehome.JPG" alt="메가박스" />
                             </div>
                             <div className={`project-info ${isDark ? 'dark' : 'light'}`}>
                                 <h2>메가박스 프로젝트</h2>
