@@ -1,0 +1,140 @@
+/* ===== 기본 설정 ===== */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, sans-serif;
+}
+body.light {
+  background-color: #1E1E1E;
+}
+body.dark {
+  background-color: #fff;
+}
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  backdrop-filter: blur(7px);
+  z-index: 1000;
+  transition: 0.3s;
+
+}
+.header.light{
+    background-color: rgba(236, 236, 236,0.7);
+}
+.header.dark{
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 로고 */
+.logo {
+  font-size: 17px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.logo.light {
+  color: #333;
+}
+.logo.dark {
+  color: white;
+}
+
+/* ===== 네비 ===== */
+.nav {
+  display: flex;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  transition: 0.3s;
+}
+.nav.light a{
+  color: #333;
+}
+.nav.dark a{
+  color: white;
+}
+
+/* hover 효과 */
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: #444;
+  transition: 0.3s;
+}
+.nav.light a::after {
+  background: #444;
+}
+.nav.dark a::after {
+  background: white;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.nav .theme-toggle{
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-bottom: 4px;
+}
+.nav .theme-toggle.light{
+    color: #333;
+}
+.nav .theme-toggle.dark{
+    color: white;
+}
+.nav .theme-box{
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+.nav .theme-box .theme-right{
+    width: 50px;
+    height: 23px;
+    margin-left: 10px;
+}
+.theme-right{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.theme-right.light{
+    background-color: rgba(180, 180, 180,0.7);
+}
+.theme-right.dark{
+    background: rgba(100, 100, 100, 0.8);;
+}
+.theme-ball{
+    width: 15px;
+    height: 15px;
+    background-color:white;
+    border-radius: 50%;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+.theme-ball.dark{
+    margin-left: 30px;
+}
+.theme-ball:hover{
+    background-color: rgb(204, 204, 204);
+}
