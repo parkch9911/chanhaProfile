@@ -248,7 +248,7 @@ export default function Home() {
                 <div className="timeline">
                     <div className="timeline-item left">
                         <div className={`timeline-content ${isDark ? 'dark' : 'light'}`}>
-                            <span className="timeline-date">2024.08</span>
+                            <span className="timeline-date">2024.08.29.</span>
                             <h3>그린컴퓨터아카데미 입학</h3>
                             <p>UIUX프론트 · 백엔드(Java, Spring) · Data분석(Python)<br /> SW개발자 양성과정</p>
                         </div>
@@ -260,7 +260,7 @@ export default function Home() {
                         <div />
                         <div className="timeline-dot" />
                         <div className={`timeline-content ${isDark ? 'dark' : 'light'}`}>
-                            <span className="timeline-date">2025.10</span>
+                            <span className="timeline-date">2025.10.15. ~ 2025.10.17.</span>
                             <h3>메가박스 웹 클론 프론트엔드 프로젝트</h3>
                             <p>HTML · CSS · JavaScript</p>
                         </div>
@@ -268,7 +268,7 @@ export default function Home() {
 
                     <div className="timeline-item left">
                         <div className={`timeline-content ${isDark ? 'dark' : 'light'}`}>
-                            <span className="timeline-date">2025.11</span>
+                            <span className="timeline-date">2025.11.10. ~ 2025.11.13.</span>
                             <h3>OTT 웹 서비스 프론트엔드 프로젝트</h3>
                             <p>React · TMDB API</p>
                         </div>
@@ -280,7 +280,7 @@ export default function Home() {
                         <div />
                         <div className="timeline-dot" />
                         <div className={`timeline-content ${isDark ? 'dark' : 'light'}`}>
-                            <span className="timeline-date">2025.12</span>
+                            <span className="timeline-date">2025.12.01. ~ 2025.12.29.</span>
                             <h3>렌트카 웹 서비스 프로젝트 프론트엔드</h3>
                             <p>React · Vite</p>
                         </div>
@@ -288,7 +288,7 @@ export default function Home() {
 
                     <div className="timeline-item left">
                         <div className={`timeline-content ${isDark ? 'dark' : 'light'}`}>
-                            <span className="timeline-date">2026.02</span>
+                            <span className="timeline-date">2026.02.05. ~ 2026.03.05.</span>
                             <h3>렌트카 웹 서비스 프로젝트 백엔드</h3>
                             <p>SpringBoot · MySQL</p>
                         </div>
@@ -300,7 +300,7 @@ export default function Home() {
                         <div />
                         <div className="timeline-dot" />
                         <div className={`timeline-content ${isDark ? 'dark' : 'light'}`}>
-                            <span className="timeline-date">2026.04</span>
+                            <span className="timeline-date">2026.04.07.~</span>
                             <h3>그린컴퓨터아카데미 수료</h3>
                             <p>현재 구직 중</p>
                         </div>
