@@ -158,9 +158,10 @@ export default function Home() {
                             </div>
                             <div className={`project-info ${isDark ? 'dark' : 'light'}`}>
                                 <h2>렌트카 프로젝트</h2>
-                                <p>조별 프로젝트로 와이어프레임 설계를 바탕으로 React(Vite) UI를 구현하고,<br />
-                                    Spring Boot와 MyBatis 기반의 REST API를 구축하여
-                                    MySQL 데이터를  <br />실시간으로 연동한 렌터카 관리 시스템을 Cloudtype에 배포<br />
+                                <p>기존 프론트엔드 프로젝트에 JAVA 기반의 Spring Boot 프레임 워크와
+                                    MyBatis(persistaence Framework)를 활용하고, MySQL DBMS를 <br />연동하여 '렌터카 예약 웹 서비스'를 개발
+                                    백엔드 서버를 구축하고 Axios<br /> 활용한 REST API 연동구조로 전환,
+                                    완성된 풀스택 서비스를<br /> CloudType 클라우드 환경에 배포<br />
                                     ID : test / PW : 1234  ＆  관리자 ID : admin / PW : 1234
                                 </p>
                                 <div className="project-stack">
